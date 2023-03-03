@@ -1,12 +1,12 @@
 @import 'variables.scss';
-html {
+body, 
+html{
     margin: 0;
     padding: 0;
     height: 100%;
     font-family: Roboto, "Helvetica Neue", sans-serif;
 }
-
-.content {
+.content{
     padding: 20px;
-    background-color: $lightgray;
+    background: $lightgray;
 }

@@ -1,15 +1,15 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { PageEvent } from '@angular/material/paginator';
+import { Page } from 'src/app/shared/model/page';
 import { Product } from './model/product';
 import { ProductService } from './product.service';
-import { Page } from 'src/app/shared/model/page';
-import { PageEvent } from '@angular/material/paginator';
 
 @Component({
   selector: 'app-product',
   templateUrl: './product.component.html',
   styleUrls: ['./product.component.scss']
 })
-export class ProductComponent {
+export class ProductComponent implements OnInit {
 
   page!: Page<Product>;
 

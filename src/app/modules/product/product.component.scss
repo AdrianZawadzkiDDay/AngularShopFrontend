@@ -1,20 +1,17 @@
 @import '../../../variables.scss';
-:host {
+:host{
     display: flex;
     flex-direction: column;
 }
-
-.productImage {
+.productImage{
     margin-right: 10px;
 }
-
-.productPrice {
+.productPrice{
     font-size: 30px;
     font-weight: 500;
     margin-top: 20px;
     color: $warn;
 }
-
 .productContent{
     font-size: 18px;
 }
@@ -27,15 +24,4 @@ a{
 }
 a:hover{
     color: #777;
-}
-.productSalePrice{
-    font-size: 30px;
-    font-weight: 500;
-    margin-top: 20px; 
-    color: green;
-}
-.productPriceDisable{
-    color: lightgray;
-    text-decoration: line-through;
-    font-size: 22px;
 }
